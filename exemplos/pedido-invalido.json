@@ -1,0 +1,23 @@
+{
+  "evento": "pedido.criado",
+  "idEvento": "evt_invalido_0001",
+  "criadoEm": "2026-10-22T19:31:00.000Z",
+  "pedido": {
+    "id": "PED-20261022-104513",
+    "cliente": { "nome": "Bruno Lima" },
+    "itens": [
+      { "codigo": "HAMB-001", "nome": "X-Burguer Clássico", "quantidade": 2, "precoUnitario": 29.9 },
+      { "codigo": "SUSHI-999", "nome": "Combinado", "quantidade": 0, "precoUnitario": 50.0 }
+    ],
+    "enderecoEntrega": {
+      "logradouro": "Avenida Beira-Mar Norte",
+      "numero": "455",
+      "bairro": "Agronômica",
+      "cidade": "Florianópolis",
+      "uf": "XX",
+      "cep": "88025"
+    },
+    "pagamento": { "forma": "pix", "pagoOnline": true, "trocoPara": 100.0 },
+    "valores": { "subtotal": 59.8, "taxaEntrega": 7.9, "desconto": 0, "total": 60.0 }
+  }
+}

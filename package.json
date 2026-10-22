@@ -1,0 +1,23 @@
+{
+  "name": "webhook-delivery-restaurante",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integração por webhook entre um aplicativo de delivery (emissor) e um restaurante (receptor).",
+  "type": "module",
+  "workspaces": [
+    "receptor",
+    "emissor"
+  ],
+  "scripts": {
+    "start:receptor": "npm start -w receptor",
+    "start:emissor": "npm start -w emissor --",
+    "demo": "node scripts/demo.js",
+    "test": "node --test \"receptor/test/*.test.js\" \"emissor/test/*.test.js\" \"tests/*.test.js\"",
+    "test:receptor": "npm test -w receptor",
+    "test:emissor": "npm test -w emissor"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "emissor-delivery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicativo de delivery: gera o evento pedido.criado e o envia por webhook ao restaurante.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "enviar-pedido": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "evento": "pedido.criado",
+  "idEvento": "evt_7b1f6d0e-3c2a-4b8e-9f10-2a6c5d4e3b21",
+  "criadoEm": "2026-10-22T19:30:00.000Z",
+  "pedido": {
+    "id": "PED-20261022-104512",
+    "restaurante": { "id": "REST-0042", "nome": "Cantina Sabor da Casa" },
+    "cliente": { "nome": "Ana Souza", "telefone": "+55 47 99876-5432" },
+    "itens": [
+      { "codigo": "PIZZA-002", "nome": "Pizza Calabresa (grande)", "quantidade": 1, "precoUnitario": 62.0, "observacoes": "sem cebola" },
+      { "codigo": "PORC-001", "nome": "Batata Frita (porção)", "quantidade": 1, "precoUnitario": 18.0 },
+      { "codigo": "BEB-001", "nome": "Refrigerante Lata 350ml", "quantidade": 2, "precoUnitario": 6.5, "observacoes": "bem gelado" }
+    ],
+    "enderecoEntrega": {
+      "logradouro": "Rua XV de Novembro",
+      "numero": "1200",
+      "complemento": "Apto 302",
+      "bairro": "Centro",
+      "cidade": "Blumenau",
+      "uf": "SC",
+      "cep": "89010-001",
+      "referencia": "Em frente à praça"
+    },
+    "pagamento": { "forma": "dinheiro", "pagoOnline": false, "trocoPara": 100.0 },
+    "valores": { "subtotal": 93.0, "taxaEntrega": 7.9, "desconto": 5.0, "total": 95.9 },
+    "observacoes": "Interfone com defeito, ligar ao chegar."
+  }
+}
