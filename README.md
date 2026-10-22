@@ -345,3 +345,7 @@ curl -i -X POST http://localhost:3000/webhooks/pedidos \
 - **Emissor como CLI.** O PDF pede uma aplicação que gere e envie o evento e apresente o resultado; o emissor foi feito como linha de comando que simula a finalização de um pedido (dados gerados aleatoriamente ou lidos de arquivo). A requisição HTTP, porém, é **real**.
 - **Catálogo duplicado.** O emissor mantém sua cópia dos códigos/preços do cardápio (como um app de delivery sincronizado com o restaurante). O receptor valida só a existência do código, não o preço, pois o app pode aplicar promoções.
 - **Janela anti-replay depende dos relógios** dos dois servidores estarem sincronizados (tolerância padrão de 5 minutos).
+
+## Autores
+
+**Desenvolvido por:** [Erick Augusto Warmling](https://github.com/ErickWarmling); [Lucas Gitirana](https://github.com/lucas-gitirana);
